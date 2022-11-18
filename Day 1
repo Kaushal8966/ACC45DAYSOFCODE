@@ -1,0 +1,12 @@
+Q1.Self introduction
+#include <stdio.h>
+
+int main()
+{
+    printf("Name : Kaushal Sharma");
+    printf("DOB : January 2,2002");
+    printf("Mob. No. : +91-8966994465");
+
+    return 0;
+}
+
