@@ -1,0 +1,12 @@
+// print all char of ASCII number
+#include <stdio.h>
+
+int main() {
+    int n,i;
+    printf("Enter number");
+scanf("%d",&n);
+for(i=0;i<n;i++){
+    printf("all char of ASCII number is %c=%d\n",i,i);
+}
+    return 0;
+}
