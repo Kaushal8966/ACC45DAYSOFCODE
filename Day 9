@@ -1,0 +1,14 @@
+// Reverse order using Array
+#include <stdio.h>
+
+int main() {
+    int arr[]={34,56,32,67,89,90,32,21};
+    int i;
+    printf("Enter the number");
+    for(i=9;i>=0;i--){
+        printf("%d\n",arr[i]);
+    }
+    
+
+    return 0;
+}
