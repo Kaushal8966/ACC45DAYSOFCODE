@@ -1,0 +1,29 @@
+//searching using array
+#include<stdio.h>
+#define MAX 100
+int main(){
+    int arr[MAX];
+    int i,size,tosearch,found;
+    printf("Enter size of array");
+    scanf("%d",&size);
+    printf("Entyer number of element");
+    for(i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+    }
+printf("Enter the element to search");
+scanf("%d",&tosearch);
+found = 0;
+for(i=0;i<size;i++){
+    if(arr[i] == tosearch){
+        found = 1;
+        break;
+    }
+}
+if(found == 1){
+    printf("\n%d is found the position %d",tosearch,i+1);
+}
+else{
+printf("\n%d is not found the position",tosearch);
+}
+return 0;
+}
