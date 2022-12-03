@@ -1,0 +1,10 @@
+//alphabete
+#include<stdio.h>
+int main(){
+    char c;
+    printf("enter alphabet");
+    for(c='A';c<='c';++c){
+        printf("%c\n",c);
+    }
+    return 0;
+}
