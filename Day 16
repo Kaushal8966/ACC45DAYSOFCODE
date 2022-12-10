@@ -1,0 +1,16 @@
+// Q4write a program to input and print the age which should be gereater than 18 and less than 30 age check should be there and input age recursively until age value is not valid
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Enter the age (18-30) :");
+    scanf("%d",&age);
+    if(age<=18){
+        printf("%d age is valid",age);
+    }
+    else if (age>30){
+    printf("age is not valid");
+    }
+    
+    return 0;
+}
